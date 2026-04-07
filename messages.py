@@ -22,7 +22,6 @@ async def get_today_messages(channel, tz_name: str = "Europe/Stockholm") -> list
                 continue
             messages.append(message)
 
-    messages.reverse()
     return messages
 
 
