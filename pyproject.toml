@@ -11,3 +11,6 @@ dependencies = [
     "python-dotenv>=1.0.0",
     "pytz>=2024.1",
 ]
+
+[tool.poetry]
+package-mode = false
